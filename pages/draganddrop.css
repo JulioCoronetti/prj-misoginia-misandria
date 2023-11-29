@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arvo', sans-serif;
+    background-color: #212932;
+    color: #f5b31c;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 800px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #f5b31c;
+    transition: .5s;
+    border-bottom: 3px solid transparent;
+}
+
+a:hover {
+    border-bottom: 3px solid #f5b31c;
+}
+
+footer {
+    padding: 5px;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section {
+    width: 700px;
+    height: 450px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section div p {
+    text-align: justify;
+    width: 250px;
+    height: 130px;
+    font-size: 13px;
+}
+
+section div img {
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+section #div1, section #div2 {
+    width: 177px;
+    height: 133px;
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
